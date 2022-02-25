@@ -16,3 +16,4 @@ function getSessions() {
 }
 
 export { getSessions as default };
+export { sessionTemplate } from './template.mjs';

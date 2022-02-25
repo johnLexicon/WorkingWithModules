@@ -1,5 +1,4 @@
-import { sessionTemplate } from './template.mjs';
-import getSessions from './sessionRepository.mjs';
+import getSessions, { sessionTemplate } from './sessionRepository.mjs';
 
 function render() {
   var list = document.querySelector('#sessions');
